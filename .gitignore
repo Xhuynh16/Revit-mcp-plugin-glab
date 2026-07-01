@@ -1,0 +1,26 @@
+# ── Node / TypeScript MCP server ───────────────────────────
+node_modules/
+# Compiled server output — regenerate with `npm run build`
+revit-mcp/server/build/
+
+# ── .NET / C# build artifacts ──────────────────────────────
+[Bb]in/
+[Oo]bj/
+*.user
+.vs/
+
+# ── Local data / databases ─────────────────────────────────
+*.db
+revit-mcp/server/revit-data.db
+
+# ── Third-party Rhino MCP (installed at runtime via `uvx rhinomcp`) ─
+rhino-mcp/
+
+# ── Claude Code local machine settings ─────────────────────
+.claude/settings.local.json
+.claude/plans/
+
+# ── OS / editor cruft ──────────────────────────────────────
+Thumbs.db
+.DS_Store
+*.log

@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "revit-mcp": {
+      "command": "node",
+      "args": [
+        "C:\\WORK_SPACE\\BIM_AI_REBIT_RIR\\revit-mcp\\server\\build\\index.js"
+      ],
+      "type": "stdio"
+    },
+    "rhino": {
+      "command": "uvx",
+      "args": ["rhinomcp"],
+      "env": {
+        "RHINO_MCP_HOST": "127.0.0.1"
+      }
+    }
+  }
+}
